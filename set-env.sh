@@ -1,3 +1,3 @@
 #!/bin/bas
-. env.sh
+. ./env.sh
 echo $NAME > /tmp/testfile
