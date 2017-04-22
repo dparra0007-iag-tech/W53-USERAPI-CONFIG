@@ -1,3 +1,2 @@
 #!/bin/bash
-. ./env.sh
-echo $NAME > /tmp/testfile
+echo export NAME="david" >> /etc/bash.bashrc
