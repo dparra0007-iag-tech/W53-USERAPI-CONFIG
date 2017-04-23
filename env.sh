@@ -1,2 +1,1 @@
-#!/bin/bash
-export NAME="david"
+NAME="david"
