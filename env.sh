@@ -1,1 +1,1 @@
-NAME="david"
+export NAME="david"
