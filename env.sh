@@ -1,1 +1,2 @@
-"david"
+#!/bin/bash
+export NAME="david"
