@@ -1,1 +1,1 @@
-export NAME="david"
+"david"
