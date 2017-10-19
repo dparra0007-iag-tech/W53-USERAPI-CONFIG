@@ -1,4 +1,6 @@
 #!/bin/bash
-export USERAPI_ERRMESSAGE="Sorry, but some error have happened"
-export USERAPI_ADDMESSAGE="User added"
-export USERAPI_DELMESSAGE="user deleted"
+command="oc create configmap userapi-config "
+while read p; do
+  command="$command --from-literal=$p "
+done <config.properties
+eval $command
