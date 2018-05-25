@@ -1,7 +1,7 @@
 {
   "Customer": {
     "dbConfig": {
-      "host": "localhost",
+      "host": " testing host",
       "port": 5984,
       "dbName": "customers"
     },
